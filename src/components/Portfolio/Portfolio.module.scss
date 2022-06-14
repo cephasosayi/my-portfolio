@@ -1,0 +1,36 @@
+@import '../../styles/global.scss';
+
+
+.portfolio{
+    position: relative;
+    height: auto;
+    width: 100%;
+    background: $secondaryColor;
+    padding-top: 4rem;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+
+}
+.portf{
+    position: relative;
+    left: 1rem !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: $secondaryColor;
+    padding: 10px !important;
+
+
+}
+.title{
+    width: 100%;
+    color: $whiteColor;
+    justify-content: center;
+    display: flex;
+    justify-items: center;
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-top: -2rem;
+}

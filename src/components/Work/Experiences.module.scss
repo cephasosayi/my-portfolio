@@ -1,0 +1,26 @@
+@import '../../styles/global.scss';
+
+.experience{
+    height: 50rem !important;
+    background: $primaryColor;
+    color: $whiteColor;
+    position: relative;
+}
+.eTitle{
+    position: relative;
+}
+.title{
+    position: absolute;
+    top: -2rem;
+    left: 6rem;
+    width: 100%;
+    color: $whiteColor;
+    font-weight: bold;
+    font-size: 3rem;
+}
+.col{
+    position: relative;
+    // display: flex;
+    top: 0;
+    left: 4.5rem;
+}

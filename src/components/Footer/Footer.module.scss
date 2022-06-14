@@ -1,0 +1,52 @@
+@import '../../styles/global.scss';
+
+@mixin flag-nga() {
+    @include ratio(1 / 2);
+    $green: #008753;
+    $white: #FFF;
+  
+    @include three-columns($green, $white, $green);
+  };
+
+  .footer{
+        background: $primaryColor !important;
+        position: relative;
+        top: 10rem;
+        bottom: 0;
+        height: 7rem;
+        width: 100%;
+        color: $whiteColor !important;
+  }
+  .text>p{
+      position: relative;
+      display: flex;
+      width: 100%;
+      top: 3.2rem;
+      justify-content: center !important;
+      justify-content: center !important;
+      font-weight: bold;
+      font-size: 1.1rem;
+  }
+
+  @media screen and (max-width:480px) {
+    .footer{
+        background: $primaryColor !important;
+        position: relative;
+        top: 17rem;
+        bottom: 0;
+        height: 7rem;
+        width: 100%;
+        color: $whiteColor !important;
+  }
+  .text>p{
+      position: relative;
+      display: flex;
+      width: 100%;
+      top: 3.2rem;
+      justify-content: center !important;
+      justify-content: center !important;
+      font-weight: bold;
+      font-size: 1.1rem;
+  }
+      
+  }

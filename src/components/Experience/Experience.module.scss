@@ -1,0 +1,67 @@
+@import '../../styles/global.scss';
+
+.experience{
+    height: 50rem;
+}
+.eLeft, .icons{
+    position: relative;
+}
+.dates{
+    position: absolute;
+    top: 10rem;
+    // background: $secondaryColor;
+    background: $cardbg !important;
+
+    color: $whiteColor;
+    width: 5rem;
+    height: 3rem;
+    padding: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: bold;
+    // border-radius: 0% 55% 55% 0%;
+    clip-path: polygon(0% 20%, 0 15%, 73% 15%, 100% 50%, 73% 86%, 0 87%, 1% 88%);
+}
+.round{
+    position: absolute;
+    top: -4rem;
+    left: -5rem;
+    transform: scale(.07);
+    box-shadow: $yellow;
+}
+.border{
+    position: absolute;
+    border: 2px solid $whiteColor;
+    height: 14rem;
+    top: 14rem;
+    left: 10.5rem;
+    box-shadow: $boxShadow;
+
+}
+.eRight{
+    position: relative;
+    height: 20rem !important;
+
+}
+.details{
+    width: 60%;
+    position: absolute;
+    top: 10.2rem;
+    left: 14rem;
+}
+.work{
+    font-weight: bold;
+}
+.loc{
+    font-weight: normal;
+}
+.desc{
+    opacity: .6;
+    margin-top: 2rem !important;
+}
+.comp{
+    font-weight: 550 !important;
+    color: $yellow;
+}

@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Benne&display=swap");
+.button {
+  background: #34353A !important;
+  color: #FECA6B !important;
+  font-size: 1rem !important;
+  font-weight: bold !important;
+  border: 4px solid #FECA6B !important;
+  border-radius: 10px !important;
+  height: 3.3rem;
+  width: 9rem;
+  cursor: pointer !important;
+}
+
+.button:hover {
+  background-color: #31333B;
+}
+
+.contact {
+  height: 25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cRow {
+  position: relative;
+  top: 14rem;
+}
+
+.title {
+  position: relative;
+  left: 35%;
+  width: 100% !important;
+  font-weight: bold;
+  top: 2rem;
+  font-size: 3rem;
+  margin-bottom: -6rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 90%;
+  height: 23rem;
+}
+
+.icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.icon {
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 5rem;
+  cursor: pointer;
+  top: 1rem;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  left: 1.1rem;
+}
+
+.form {
+  position: relative;
+  width: 75%;
+  left: 5rem;
+  top: -1.5rem;
+}
+
+.input {
+  margin-top: 1rem;
+  font-style: normal;
+  color: #31333B !important;
+  font-size: 1rem;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  outline-color: #FECA6B !important;
+}
+
+.input:focus {
+  outline-color: #FECA6B !important;
+}
+
+.btn {
+  background: #FECA6B !important;
+  font-weight: bold;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  font-stretch: extra-expanded !important;
+}
+
+.hideform {
+  display: none;
+}
+
+@media screen and (max-width: 480px) {
+  .contact {
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .cRow {
+    position: relative;
+    top: 17rem;
+  }
+  .title {
+    position: relative;
+    left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100% !important;
+    font-weight: bold;
+    top: 7rem;
+    font-size: 2.5rem;
+    margin-bottom: -7rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    height: 23rem;
+  }
+  .icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .form {
+    position: relative;
+    width: 100%;
+    left: 0rem;
+    top: -3rem;
+    height: auto !important;
+  }
+  .input {
+    margin-top: 1rem;
+    font-style: normal;
+    color: #31333B !important;
+    font-size: 1rem;
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+    outline-color: #FECA6B !important;
+  }
+  .input:focus {
+    outline-color: #FECA6B !important;
+  }
+  .btn {
+    background: #FECA6B !important;
+    font-weight: bold;
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+    font-stretch: extra-expanded !important;
+  }
+  .hideform {
+    display: none;
+  }
+}
+/*# sourceMappingURL=Contact.module.css.map */

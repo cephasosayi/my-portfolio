@@ -1,0 +1,62 @@
+@import '../../styles/global.scss';
+
+.skills{
+    position: relative;
+    width: 100% !important;
+    background: $secondaryColor;
+    height: 80rem;
+    display: flex;
+  
+}
+.skill{
+    position: relative;
+    left: -1.8rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background: $secondaryColor !important;
+   
+}
+.title{
+    width: 100%;
+    color: $whiteColor;
+    justify-content: center;
+    display: flex;
+    justify-items: center;
+    font-weight: bold;
+    font-size: 2.5rem !important;
+
+}
+@media screen and (max-width: 480px) {
+    .skills{
+        position: relative;
+        width: 100% !important;
+        background: $secondaryColor;
+        height: auto;
+        display: flex;
+        padding-top: 4.5rem;
+      
+      
+    }
+    .skill{
+        position: relative;
+        left: 0rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: $secondaryColor !important;
+       
+    }
+    .title{
+        width: 100%;
+        color: $whiteColor;
+        justify-content: center;
+        display: flex;
+        justify-items: center;
+        font-weight: bold;
+        font-size: 3rem;
+    }
+    
+}

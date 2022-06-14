@@ -1,0 +1,80 @@
+@import '../../styles/global.scss';
+
+.about{
+    width: 100%;
+    background: $secondaryColor;
+    height: 32rem;
+    color: $whiteColor;
+}
+.line, .abouttext{
+    position: relative;
+}
+.lineImg{
+    position: absolute;
+    top: -15rem;
+    left: -10rem;
+    margin-left: -10.1px;
+}
+.abouttitle{
+    margin-top: 10rem;
+    font-weight: bold;
+    font-size: 2.5rem !important;
+
+}
+.text{
+    position: absolute;
+    width: 80%;
+    left: 11rem;
+    font-size: 1.2rem;
+    font-weight: normal;
+    // line-height: 2rem;
+
+
+}
+
+@media screen and (max-width:480px) {
+    
+.about{
+    width: 100%;
+    height: 34rem;
+    background: $secondaryColor;
+    height: 32rem;
+    color: $whiteColor;
+}
+.line, .abouttext{
+    position: relative;
+    width: 100%;
+}
+.lineImg{
+    // position: relative;
+    top: -15rem;
+    left: .6rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.abouttitle{
+    margin-top: 10rem;
+    font-weight: bold;
+    font-size: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.text{
+    position: absolute;
+    width: 100%;
+    height: 100% !important;
+    left: 0rem;
+    top: 2rem;
+    margin-bottom: 2rem !important;
+    font-size: 1.2rem;
+    // line-height: 22px;
+    font-weight: normal;
+    // line-height: 2rem;
+
+
+}
+
+}

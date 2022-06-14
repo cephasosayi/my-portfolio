@@ -1,0 +1,68 @@
+@import '../../styles/global.scss';
+
+.navbar{
+    background: $primaryColor !important;
+    padding: 0;
+    height: 7rem;
+}
+.brand{
+    font-size: 3.5rem;
+    font-weight: bold;
+    // font-family: $fontFamily;
+    color: $whiteColor !important;
+
+}
+.nav{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 1.8rem;
+}
+.navLink{
+    font-size: 1rem;
+    font-weight: normal;
+    // font-family: $fontFamily;
+    color: $whiteColor !important;
+}
+
+@media screen and (max-width: 480px) {
+    .navbar{
+        background: $primaryColor !important;
+        padding: 7px;
+        height: 5rem;
+        scroll-behavior: smooth;
+        transition: 80ms ease-in-out;
+    }
+    .brand{
+        font-size: 2rem;
+        font-weight: bold;
+        // font-family: $fontFamily;
+        color: $whiteColor !important;
+    
+    }
+    .nav{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        gap: 1.8rem;
+    }
+    .navLink{
+        font-size: 1.1rem;
+        padding: auto;
+        font-weight: 450;
+        // font-family: $fontFamily;
+        color: $whiteColor !important;
+        margin-bottom: 7px;
+    }
+    .toggle{
+        border: 0px solid  !important;
+        box-shadow: none !important;
+        background: $yellow !important;
+    }
+    .navscroll{
+        height: 17.5rem;
+        width: 100% !important;
+        border-bottom: 2px solid $yellow !important;
+        background: $secondaryColor !important;
+    }
+}

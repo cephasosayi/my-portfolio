@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Benne&display=swap");
+.button {
+  background: #34353A !important;
+  color: #FECA6B !important;
+  font-size: 1rem !important;
+  font-weight: bold !important;
+  border: 4px solid #FECA6B !important;
+  border-radius: 10px !important;
+  height: 3.3rem;
+  width: 9rem;
+  cursor: pointer !important;
+}
+
+.button:hover {
+  background-color: #31333B;
+}
+
+.card {
+  background: #3D3E42 !important;
+  width: 16.5rem;
+  height: 19rem;
+  position: relative;
+  border-radius: 20px !important;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: 120ms ease-in-out;
+  transition: 120ms ease-in-out;
+}
+
+.icon {
+  position: relative;
+  -webkit-transform: scale(0.32);
+          transform: scale(0.32);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  top: -1rem;
+}
+
+.text {
+  position: relative;
+  width: 100%;
+  top: -5rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.title {
+  width: 75%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold !important;
+}
+
+.card:hover {
+  background: #FECA6B !important;
+  font-weight: bold !important;
+}
+
+.title:hover {
+  color: #34353A !important;
+}
+
+@media screen and (max-width: 480px) {
+  .card {
+    background: #3D3E42 !important;
+    width: 19.8rem;
+    height: 19rem;
+    position: relative;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border-radius: 20px !important;
+    -webkit-transition: 120ms ease-in-out;
+    transition: 120ms ease-in-out;
+  }
+  .icon {
+    position: relative;
+    -webkit-transform: scale(0.32);
+            transform: scale(0.32);
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    top: -1rem;
+  }
+  .text {
+    position: relative;
+    width: 100%;
+    top: -5rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .title {
+    width: 75%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold !important;
+  }
+  .card:hover {
+    background: #FECA6B !important;
+    font-weight: bold !important;
+  }
+  .title:hover {
+    color: #34353A !important;
+  }
+}
+/*# sourceMappingURL=Card.module.css.map */
