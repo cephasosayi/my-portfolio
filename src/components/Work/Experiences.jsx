@@ -13,6 +13,7 @@ const Experiences = () => {
               </h1>           
         </div> 
         <Col className={`${styles.col} me-auto me-auto`}>
+          <div className={`${styles.worksc}`}>
         <Experience
           year='2021'
           company='Easydrop Web Services'
@@ -26,9 +27,11 @@ const Experiences = () => {
           pariatur. Excepteur sint occaecat cupidatat non proident,
           sunt in culpa qui officia deserunt mollit anim id est
           laborum.'
-        />
-
-<Experience
+            />
+          </div>
+          
+          <div className={`${styles.worksec}`}>
+            <Experience
           year='2020'
           company='Ullweb Technology'
           jobTitle='Frontend Developer'
@@ -41,7 +44,8 @@ const Experiences = () => {
           pariatur. Excepteur sint occaecat cupidatat non proident,
           sunt in culpa qui officia deserunt mollit anim id est
           laborum.'
-          />
+            />
+          </div>
           </Col>
           </Container>          
     </Container>

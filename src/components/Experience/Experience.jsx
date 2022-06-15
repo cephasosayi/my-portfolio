@@ -15,7 +15,7 @@ const Experience = ({ year, desc, location, jobTitle, company}) => {
                 {year}
               </span>
               <div className={`${styles.icons}`}>
-                <img src={round} alt='' className={`${styles.round}`} />
+                <img src={round} alt='' className={`${styles.round}`}/>
               </div>
               <div className={`${styles.border}`}></div>
               

@@ -11,16 +11,32 @@
 }
 .title{
     position: absolute;
-    top: -2rem;
-    left: 6rem;
+    top: 1.5rem;
+    left: 0rem;
     width: 100%;
     color: $whiteColor;
     font-weight: bold;
-    font-size: 3rem;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .col{
     position: relative;
     // display: flex;
     top: 0;
     left: 4.5rem;
+}
+@media screen and (max-width: 480px) {
+    .experience{
+        height: 75rem !important;
+        background: $primaryColor;
+        color: $whiteColor;
+        position: relative;
+    }
+    .worksec{
+        // position: relative;
+        padding-top: 13rem !important;
+    }
+    
 }

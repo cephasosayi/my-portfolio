@@ -29,7 +29,11 @@
     top: -4rem;
     left: -5rem;
     transform: scale(.07);
-    box-shadow: $yellow;
+    border: 0px solid $yellow;
+    border-radius: 100% !important;
+    box-shadow: -7px 10px 228px 44px rgba(254,202,107,0.45);
+    -webkit-box-shadow: -7px 10px 228px 44px rgba(254,202,107,0.45);
+    -moz-box-shadow: -7px 10px 228px 44px rgba(254,202,107,0.45);
 }
 .border{
     position: absolute;
@@ -37,7 +41,6 @@
     height: 14rem;
     top: 14rem;
     left: 10.5rem;
-    box-shadow: $boxShadow;
 
 }
 .eRight{
@@ -64,4 +67,103 @@
 .comp{
     font-weight: 550 !important;
     color: $yellow;
+}
+
+@media screen and ( max-width:480px) {
+
+.experience{
+    height: 50rem;
+    // width: 100%;
+}
+.eLeft{
+    position: absolute;
+    width: 100%;
+    left: -14rem;
+}
+.icons{
+    position: relative;
+}
+.dates{
+    position: absolute;
+    top: 7rem;
+    left: 10rem !important;
+    // background: $secondaryColor;
+    background: $cardbg !important;
+
+    color: $whiteColor;
+    width: 5rem;
+    height: 3rem;
+    padding: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: bold;
+    // border-radius: 0% 55% 55% 0%;
+    clip-path: polygon(0% 20%, 0 15%, 73% 15%, 100% 50%, 73% 86%, 0 87%, 1% 88%);
+}
+.round{
+    position: absolute;
+    top: -4rem;
+    left: -5rem;
+    transform: scale(.07);
+    box-shadow: -7px 10px 228px 44px rgba(254,202,107,0.45);
+    -webkit-box-shadow: -7px 10px 228px 44px rgba(254,202,107,0.45);
+    -moz-box-shadow: -7px 10px 228px 44px rgba(254,202,107,0.45);
+
+}
+.border{
+    position: absolute;
+    border: 2px solid $whiteColor;
+    height: 22rem;
+    top: 14rem;
+    left: 10.5rem;
+
+}
+.eRight{
+    position: relative;
+    height: 20rem !important;
+
+}
+.details{
+    width: 100%;
+    position: absolute;
+    top: 10.5rem;
+    left: -3.4rem;
+}
+.work{
+    font-weight: bold;
+}
+.loc{
+    font-weight: normal;
+}
+.desc{
+    opacity: .8;
+    margin-top: 1.5rem !important;
+    font-size: 1rem !important;
+    width: 100% !important;
+}
+.comp{
+    font-weight: 550 !important;
+    color: $yellow;
+}   
+.dates{
+    position: absolute;
+    top: 7rem;
+    left: 10rem !important;
+    // background: $secondaryColor;
+    background: $cardbg !important;
+
+    color: $whiteColor;
+    width: 5rem;
+    height: 3rem;
+    padding-bottom: 1.5rem !important;
+    padding-top: .5rem !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: bolder;
+    clip-path: polygon(0 0, 100% 0%, 100% 63%, 51% 86%, 0 63%);
+}   
 }
