@@ -34,3 +34,67 @@
     font-size: 2.5rem;
     margin-top: -2rem;
 }
+
+@media screen and (max-width:768px) {  
+
+    .portfolio{
+        position: relative;
+        height: auto;
+        width: 100%;
+        background: $secondaryColor;
+        padding-top: 4rem;
+        display: flex;
+        // flex-direction: column;
+        justify-content: center;
+    
+    }
+    .portf{
+        width: 100%;
+        position: relative;
+        left: -1.5rem !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: $secondaryColor;
+        padding: 0px !important;
+    
+    
+    }
+}
+@media screen and (max-width:480px) {  
+    .portfolio{
+        position: relative;
+        height: auto;
+        width: 100%;
+        background: $secondaryColor;
+        padding-top: 4rem;
+        // display: flex;
+        // flex-direction: column;
+        // justify-content: center;
+    
+    }
+    .portf{
+        position: relative;
+        left: 1rem !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: $secondaryColor;
+        padding: 10px !important;
+    
+    
+    }
+    .title{
+        width: 100%;
+        color: $whiteColor;
+        justify-content: center;
+        display: flex;
+        justify-items: center;
+        font-weight: bold;
+        font-size: 2.5rem;
+        margin-top: -2rem;
+    }
+
+}

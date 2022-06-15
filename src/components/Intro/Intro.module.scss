@@ -16,6 +16,7 @@
 .introContent>:nth-child(1){
     display: flex;
     margin-bottom: -4rem;
+
 }
 .introContent>h2{
     gap: 2rem;
@@ -208,3 +209,102 @@
         
     }    
 }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+    .intro{
+        width: 100%;
+        background: $primaryColor;
+        height: 30rem;
+        border-bottom: 0.1px solid $yellow;
+    }
+    .introContent>:nth-child(1){
+        display: flex;
+        margin-bottom: -4rem;
+        
+    }
+    .introContent>h2{
+        gap: 1rem;
+        font-size: 1rem;
+    }
+    .text2{
+        color: $yellow !important;
+        font-weight: bold;
+        font-size: 2rem; 
+        justify-content: center;
+        margin-top: -10px;
+        margin-left: 10px;
+        
+    }
+    .introContent>:nth-child(2){
+        margin: 0rem 0rem 1.5rem 0rem;
+        font-size: 1.2rem;
+        font-weight: normal;
+        font-style: normal;
+        width: 70%;
+        margin-top: 4rem;
+        line-height: 2rem;
+    }
+    .img{
+        position: relative;
+        left: -3rem;
+        top: 5rem;
+        width: 100% !important;
+        // margin-top: 2.5rem;
+        transform: scale(1.37);
+        // height: 3rem !important;
+        z-index: 1;
+        object-fit: contain;
+        border-color: $primaryColor !important;
+    }
+    .icons{
+        gap: 2rem !important;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        top: -8rem !important;
+        position: relative;
+        z-index: 2;
+       
+    }
+    .icon{
+        z-index: 1;
+        height: 100%;
+        justify-content: end !important;
+        margin-left:68rem;
+        cursor: pointer;
+        margin-top: 1.2rem !important;
+        align-items: flex-end;
+    
+    }
+    .introRight{
+        z-index: 1;
+    
+    }
+    .ico{
+        z-index: 1;
+        position: relative;
+        top: -18rem;
+        left: 14.59rem;
+        height: 3rem !important;
+    }
+    .maincircle{
+        position: relative;
+        width: 100%;
+    }
+    .circle{
+        position: absolute;
+        top: -50rem;
+        left: 14.5rem;
+        transform: scale(.7);
+    
+    }
+    .cimg{
+        z-index: 2;
+        transform: scale(.7);
+        
+    }
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+// @media (min-width: 1400px) {  }

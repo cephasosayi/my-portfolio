@@ -26,14 +26,13 @@ const Skills = () => {
               <h1 className={`${styles.title} ms-auto me-auto mb-4`}>My Skills</h1>
               <Row lg={4} md={3} sm={1} xs={1} className='py-2 g-4'>
               <Card icon={react} skill='REACT' />
-
               <Card icon={html} skill='HTML5' />
               <Card icon={css} skill='CSS3' />
               <Card icon={js} skill='JAVASCRIP' />
               <Card icon={sass} skill='SASS' />
               <Card icon={next} skill='NEXTJS'  />
              <Card icon={boostrap} skill='BOOTSTRAP' />
-              <Card icon={strapi} skill='HEADLESS CMS' />
+              {/* <Card icon={strapi} skill='HEADLESS CMS' /> */}
               <Card icon={xd} skill='ADOBE XD' />
               <Card icon={wp} skill='WORDPRESS' />
               <Card icon={redux} skill='REDUX' />

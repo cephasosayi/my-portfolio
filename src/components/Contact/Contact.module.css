@@ -111,6 +111,92 @@
   display: none;
 }
 
+@media screen and (max-width: 768px) {
+  .contact {
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .cRow {
+    position: relative;
+    top: 15rem;
+  }
+  .title {
+    position: relative;
+    left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100% !important;
+    font-weight: bold;
+    top: 3rem;
+    font-size: 2.5rem;
+    margin-bottom: -7rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 90%;
+    height: 25rem;
+  }
+  .icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .form {
+    position: relative;
+    width: 90%;
+    left: 1rem;
+    top: -1rem;
+    height: auto !important;
+  }
+  .input {
+    margin-top: 1rem;
+    font-style: normal;
+    color: #31333B !important;
+    font-size: 1rem;
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+    outline-color: #FECA6B !important;
+  }
+  .input:focus {
+    outline-color: #FECA6B !important;
+  }
+  .btn {
+    background: #FECA6B !important;
+    font-weight: bold;
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+    font-stretch: extra-expanded !important;
+  }
+  .hideform {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 480px) {
   .contact {
     height: auto;

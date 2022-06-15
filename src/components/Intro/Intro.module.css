@@ -266,4 +266,107 @@
             transform: scale(0.7);
   }
 }
+
+@media (min-width: 768px) {
+  .intro {
+    width: 100%;
+    background: #34353A;
+    height: 30rem;
+    border-bottom: 0.1px solid #FECA6B;
+  }
+  .introContent > :nth-child(1) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: -4rem;
+  }
+  .introContent > h2 {
+    gap: 1rem;
+    font-size: 1rem;
+  }
+  .text2 {
+    color: #FECA6B !important;
+    font-weight: bold;
+    font-size: 2rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: -10px;
+    margin-left: 10px;
+  }
+  .introContent > :nth-child(2) {
+    margin: 0rem 0rem 1.5rem 0rem;
+    font-size: 1.2rem;
+    font-weight: normal;
+    font-style: normal;
+    width: 70%;
+    margin-top: 4rem;
+    line-height: 2rem;
+  }
+  .img {
+    position: relative;
+    left: -3rem;
+    top: 5rem;
+    width: 100% !important;
+    -webkit-transform: scale(1.37);
+            transform: scale(1.37);
+    z-index: 1;
+    -o-object-fit: contain;
+       object-fit: contain;
+    border-color: #34353A !important;
+  }
+  .icons {
+    gap: 2rem !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    top: -8rem !important;
+    position: relative;
+    z-index: 2;
+  }
+  .icon {
+    z-index: 1;
+    height: 100%;
+    -webkit-box-pack: end !important;
+        -ms-flex-pack: end !important;
+            justify-content: end !important;
+    margin-left: 68rem;
+    cursor: pointer;
+    margin-top: 1.2rem !important;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  .introRight {
+    z-index: 1;
+  }
+  .ico {
+    z-index: 1;
+    position: relative;
+    top: -18rem;
+    left: 14.59rem;
+    height: 3rem !important;
+  }
+  .maincircle {
+    position: relative;
+    width: 100%;
+  }
+  .circle {
+    position: absolute;
+    top: -50rem;
+    left: 14.5rem;
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7);
+  }
+  .cimg {
+    z-index: 2;
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7);
+  }
+}
 /*# sourceMappingURL=Intro.module.css.map */

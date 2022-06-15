@@ -84,8 +84,72 @@
 @media screen and (max-width: 480px) {
   .card {
     background: #3D3E42 !important;
-    width: 19.8rem;
-    height: 19rem;
+    width: 19.8rem !important;
+    height: 19rem !important;
+    position: relative !important;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    border-radius: 20px !important;
+    -webkit-transition: 120ms ease-in-out;
+    transition: 120ms ease-in-out;
+    margin-right: 0px !important;
+  }
+  .icon {
+    position: relative;
+    -webkit-transform: scale(0.32);
+            transform: scale(0.32);
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    top: -1rem;
+  }
+  .text {
+    position: relative;
+    width: 100%;
+    top: -5rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .title {
+    width: 75%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold !important;
+  }
+  .card:hover {
+    background: #FECA6B !important;
+    font-weight: bold !important;
+  }
+  .title:hover {
+    color: #34353A !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    background: #3D3E42 !important;
+    width: 14rem;
+    height: 16rem;
     position: relative;
     -webkit-box-pack: center;
         -ms-flex-pack: center;

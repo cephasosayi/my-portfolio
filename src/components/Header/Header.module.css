@@ -88,4 +88,48 @@
     background: #31333B !important;
   }
 }
+
+@media (min-width: 768px) {
+  .navbar {
+    background: #34353A !important;
+    padding: 7px;
+    height: 5rem;
+    -webkit-transition: 80ms ease-in-out;
+    transition: 80ms ease-in-out;
+  }
+  .brand {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff !important;
+  }
+  .nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 1.8rem;
+  }
+  .navLink {
+    font-size: 1.1rem;
+    padding: auto;
+    font-weight: 450;
+    color: #fff !important;
+    margin-bottom: 7px;
+  }
+  .toggle {
+    border: 0px solid  !important;
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+    background: #FECA6B !important;
+  }
+  .navscroll {
+    height: 17.5rem;
+    width: 100% !important;
+    border-bottom: 2px solid #FECA6B !important;
+    background: #31333B !important;
+  }
+}
 /*# sourceMappingURL=Header.module.css.map */

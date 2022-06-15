@@ -12,7 +12,7 @@ const Portfolio = () => {
           <Container className={`${styles.portf}`}>
           <h1 className={`${styles.title} ms-auto me-auto mb-4`}>Portfolio</h1>
 
-              <Row lg={3} sm={1} md={3} xs={1}>
+              <Row lg={3} sm={1} md={2} xs={1}>
                   <PortfolioCard
                       img={sc1}
                       title='Ullweb Landing Page'

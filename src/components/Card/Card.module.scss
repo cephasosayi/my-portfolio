@@ -51,13 +51,63 @@
 @media screen and (max-width: 480px) {
     .card{
         background: $cardbg !important;
-        width: 19.8rem;
-        height: 19rem;
+        width: 19.8rem !important;
+        height: 19rem !important;
+        position: relative !important;
+        justify-content: center !important;
+        border-radius: 20px !important;
+        transition: 120ms ease-in-out;
+        margin-right: 0px !important;
+        
+    
+    }
+    .icon{
+        position: relative;
+        transform: scale(.32);
+        justify-content: center;
+        align-items: center;
+        top: -1rem;
+    }
+    .text{
+        position: relative;
+        width: 100%;
+        top: -5rem;
+        // left: 6rem;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    
+    }
+    .title{
+        width: 75%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        // top: -3rem;
+        color: $whiteColor;
+        font-size: 1.5rem;
+        font-weight: bold !important;
+    }
+    .card:hover{
+        background: $yellow !important;
+        font-weight: bold !important;
+    
+    }
+    .title:hover{
+        color: $primaryColor !important;
+    
+    }
+    
+}
+@media screen and ( max-width:768px) {
+    .card{
+        background: $cardbg !important;
+        width: 14rem;
+        height: 16rem;
         position: relative;
         justify-content: center;
         border-radius: 20px !important;
         transition: 120ms ease-in-out;
-        
     
     }
     .icon{

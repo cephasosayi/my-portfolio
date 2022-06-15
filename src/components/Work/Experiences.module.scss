@@ -27,6 +27,27 @@
     top: 0;
     left: 4.5rem;
 }
+@media screen and (max-width: 768px) {
+    .experience{
+        height: 60rem !important;
+        background: $primaryColor;
+        color: $whiteColor;
+        position: relative;
+    }
+    .col{
+        position: relative;
+        // display: flex;
+        top: 1rem;
+        left: 0rem;
+        height: auto;
+    }
+    .worksec{
+        position: relative;
+        top: 3rem;
+    }
+    
+}
+
 @media screen and (max-width: 480px) {
     .experience{
         height: 75rem !important;
@@ -34,9 +55,30 @@
         color: $whiteColor;
         position: relative;
     }
+    .eTitle{
+        position: relative;
+    }
+    .title{
+        position: absolute;
+        top: 1.5rem;
+        left: 0rem;
+        width: 100%;
+        color: $whiteColor;
+        font-weight: bold;
+        font-size: 2.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .col{
+        position: relative;
+        // display: flex;
+        top: 0;
+        left: 4.5rem;
+    }
     .worksec{
-        // position: relative;
-        padding-top: 13rem !important;
+        position: relative;
+        top: 15rem !important;
     }
     
 }
