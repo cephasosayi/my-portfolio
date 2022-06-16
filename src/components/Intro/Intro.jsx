@@ -10,7 +10,7 @@ import Github from '@iconscout/react-unicons/icons/uil-github'
 import Instagram from '@iconscout/react-unicons/icons/uil-instagram'
 import Twitter from '@iconscout/react-unicons/icons/uil-twitter'
 import Linkedin from '@iconscout/react-unicons/icons/uil-linkedin'
-import { Link } from 'react-scroll';
+import { Link, ScrollLink } from 'react-scroll';
 
 
 
@@ -28,7 +28,7 @@ const Intro = () => {
                   {/* <span> Cephas Osayi</span> */}
                   <span>Frontend Developer & WordPress Expert</span>
                   </div>                  
-                  <Button variant='outline-secondary' className={`${styles.button}`}>Contact Me</Button>
+                <Link spy={true} to='Contact' activeClass='activeClass' smooth={true}><Button variant='outline-secondary' className={`${styles.button}`}>Contact Me</Button></Link>
               </Col>
               <Col lg={6} sm={12} md={6} xs={12} className={`${styles.introRight}`}>
                   <Image src={cephas3} alt='' className={`${styles.img} img-fluid`}/>

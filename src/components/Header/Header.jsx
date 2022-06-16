@@ -2,6 +2,8 @@ import React from 'react'
 import { Button, Container, Nav, Navbar, Image } from 'react-bootstrap';
 import styles from './Header.module.css';
 import logo from '../../assets/logo1.png';
+import resume from '../../assets/resume.pdf';
+
 import { Link } from 'react-scroll';
 const Header = () => {
   return (
@@ -33,7 +35,9 @@ const Header = () => {
               </Link>
             </Nav>
             <div className="ms-auto">
-                <Button className='button' variant='primary' download>Download CV</Button>
+            <a href={resume} download>
+                <Button className='button' variant='primary'>Download CV</Button>
+            </a>
               </div>
 
           </Navbar.Collapse>

@@ -9,6 +9,8 @@
   height: 3.3rem;
   width: 9rem;
   cursor: pointer !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
 }
 
 .button:hover {
