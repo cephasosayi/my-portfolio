@@ -28,6 +28,7 @@ const Portfolio = () => {
                   <PortfolioCard
                       img={notapp}
                       title='Web Note Application'
+                      link='https://mywebnote.netlify.app/'
                     //   detail='Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                     //           sed do eiusmod tempor incididunt ut labore et dolore magna
                     //           aliqua. '
@@ -49,6 +50,7 @@ const Portfolio = () => {
                    <PortfolioCard
                       img={ullweb}
                       title='Ullweb Landing Page'
+                      link='https://ullweb.netlify.app/'
                     //   detail='Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                     //           sed do eiusmod tempor incididunt ut labore et dolore magna
                     //           aliqua. '

@@ -152,7 +152,7 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    gap: 1.8rem;
+    gap: 0rem;
   }
   .navLink {
     font-size: 1.1rem;
