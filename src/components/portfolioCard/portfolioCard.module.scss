@@ -9,7 +9,7 @@
     position: relative;
 }
 .img{
-    height: 18.5rem !important;
+    height: 18rem !important;
     padding: 2px;
 }
 .body{
@@ -22,18 +22,20 @@
     display: flex;
     flex-direction: column;
     z-index: 1;
+    margin-bottom: -10px;
 }
 .card:hover{
     background: $yellow;
 }
 .btn{
-    margin-top: -14px;
+    margin-top: -19px !important;
 }
 .title{
     font-size: 1.2rem;
     font-weight: bold;
     font-style: normal;
     justify-content: center;
+    margin-bottom: -15px;
 
 }
 .text{
@@ -58,7 +60,7 @@
         position: relative;
     }
     .img{
-        height: 17.5rem !important;
+        height: 19.5rem !important;
         padding: 2px;
     }
     .body{
@@ -102,7 +104,7 @@
    
 .card{
     width: 19rem !important;
-    height: 26rem !important;
+    height: 25rem !important;
     gap: 7rem !important;
     margin-right: 2rem !important;
     position: relative;
@@ -113,7 +115,7 @@
 }
 .body{
     position: absolute;
-    top: 16rem;
+    top: 17rem;
     padding: 2rem !important;
     justify-content: center;
     align-items: center;
@@ -123,7 +125,7 @@
     z-index: 1;
 }
 .btn{
-    margin-top: -16px !important;
+    margin-top: -15px !important;
     padding: 5px !important;
 }
 .title{

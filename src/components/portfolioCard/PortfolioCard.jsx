@@ -27,7 +27,7 @@ const PortfolioCard = ({ img, title, detail }) => {
                           <Card.Title className={`${styles.title}`}>{title}</Card.Title>
                       <Card.Text className={`${styles.text}`}>{detail}</Card.Text>
                       {hover && 
-                          <Button variant='Link' className={`${styles.btn}`}>See More <img src={arrow} alt='' className={`${styles.icon}`} />  </Button>
+                          <Button variant='Link' className={`${styles.btn} mt-lg-2`}>Visit </Button>
                       }
                   </Card.Body>
                   

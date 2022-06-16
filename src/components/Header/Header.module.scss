@@ -114,7 +114,7 @@
         font-weight: 450;
         // font-family: $fontFamily;
         color: $whiteColor !important;
-        margin-bottom: 7px;
+        margin-bottom: 4px;
     }
     .toggle{
         border: 0px solid  !important;
@@ -122,12 +122,11 @@
         background: $yellow !important;
     }
     .navscroll{
-        height: 23.5rem;
+        height: 24.5rem;
         width: 100% !important;
-        border-bottom: 2px solid $yellow !important;
+        border-bottom: .1px solid $yellow !important;
         background: $secondaryColor !important;
-        padding: 7px;
-        gap: 5px;
+        padding-left: 7px;
     }
     .btn{
         margin-top: 15px;

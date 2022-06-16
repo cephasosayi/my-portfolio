@@ -9,6 +9,8 @@
   height: 3.3rem;
   width: 9rem;
   cursor: pointer !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
 }
 
 .button:hover {
@@ -157,7 +159,7 @@
     padding: auto;
     font-weight: 450;
     color: #fff !important;
-    margin-bottom: 7px;
+    margin-bottom: 4px;
   }
   .toggle {
     border: 0px solid  !important;
@@ -166,12 +168,11 @@
     background: #FECA6B !important;
   }
   .navscroll {
-    height: 23.5rem;
+    height: 24.5rem;
     width: 100% !important;
-    border-bottom: 2px solid #FECA6B !important;
+    border-bottom: 0.1px solid #FECA6B !important;
     background: #31333B !important;
-    padding: 7px;
-    gap: 5px;
+    padding-left: 7px;
   }
   .btn {
     margin-top: 15px;
