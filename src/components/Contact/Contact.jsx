@@ -27,7 +27,7 @@ const Contact = () => {
       });
   };
   return (
-      <Container fluid className={`${styles.contact}`}>        
+      <Container fluid className={`${styles.contact}`} id='Contact'>        
           <Container>
         <h1 className={`${styles.title}`}>Contact Me</h1>
 
@@ -45,10 +45,10 @@ const Contact = () => {
                               Email: cephasosayi@gmail.com
                           </p>
                     <div className={`${styles.icons}`}>
-                                <div className={`${styles.icon}`}><Github /></div>                          
-                                <div className={`${styles.icon}`}><Whatsapp /></div>                          
-                                <div className={`${styles.icon}`}><Linkedin /></div>                          
-                                <div className={`${styles.icon}`}><Twitter /></div>                          
+                                <div className={`${styles.icon}`}><a href='https://github.com/cephasosayi' target='_blank' ><Github color='black' /></a></div>                          
+                                <div className={`${styles.icon}`}><a href='https://wa.me/2348077827613' target='_blank' ><Whatsapp color='black' /></a></div>                          
+                                <div className={`${styles.icon}`}><a href='https://github.com/cephasosayi' target='_blank' ><Linkedin color='black' /></a></div>                          
+                                <div className={`${styles.icon}`}><a href='https://github.com/cephasosayi' target='_blank' ><Twitter color='black' /></a></div>                          
 
                           </div>
                     </div>

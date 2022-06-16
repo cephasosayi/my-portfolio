@@ -15,6 +15,25 @@
   background-color: #31333B;
 }
 
+.icon {
+  background: #34353A;
+  border-radius: 100%;
+  -webkit-transform: scale(2);
+          transform: scale(2);
+  margin: 1rem;
+  color: #FCFCFC;
+}
+
+.icon:hover {
+  background: #34353A;
+  border: 1px solid #FECA6B;
+  border-radius: 100%;
+  -webkit-transform: scale(2);
+          transform: scale(2);
+  margin: 1rem;
+  color: #FCFCFC;
+}
+
 .navbar {
   background: #34353A !important;
   padding: 0;
@@ -147,7 +166,7 @@
     background: #FECA6B !important;
   }
   .navscroll {
-    height: 18.5rem;
+    height: 21.5rem;
     width: 100% !important;
     border-bottom: 2px solid #FECA6B !important;
     background: #31333B !important;

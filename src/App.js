@@ -8,6 +8,10 @@ import Portfolio from './components/Portfolio/Portfolio';
 import Experiences from './components/Work/Experiences';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
+import BackToTop from "react-back-to-top-button";
+import Up from '@iconscout/react-unicons/icons/uil-arrow-circle-up'
+
+
 function App() {
   return (
     <div className="App">      
@@ -19,6 +23,15 @@ function App() {
       <Experiences />
       <Contact/>
       <Footer />
+
+      <BackToTop
+        showOnScrollUp
+        showAt={100}
+        speed={1500}
+        easing="easeInOutQuint"
+      >
+        <span ><Up color='white' className='icon' /></span>
+      </BackToTop>
     </div>
   );
 }

@@ -14,7 +14,7 @@ import portfolio from '../../assets/porfolio/portfolio.png';
 
 const Portfolio = () => {
   return (
-      <Container fluid className={`${styles.portfolio} p-sm-3`}>
+      <Container fluid className={`${styles.portfolio} p-sm-3`} id='Portfolio'>
           <Container className={`${styles.portf}`}>
           <h1 className={`${styles.title} ms-auto me-auto mb-4`}>Portfolio</h1>
 

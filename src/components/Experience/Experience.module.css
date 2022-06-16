@@ -15,6 +15,25 @@
   background-color: #31333B;
 }
 
+.icon {
+  background: #34353A;
+  border-radius: 100%;
+  -webkit-transform: scale(2);
+          transform: scale(2);
+  margin: 1rem;
+  color: #FCFCFC;
+}
+
+.icon:hover {
+  background: #34353A;
+  border: 1px solid #FECA6B;
+  border-radius: 100%;
+  -webkit-transform: scale(2);
+          transform: scale(2);
+  margin: 1rem;
+  color: #FCFCFC;
+}
+
 .experience {
   height: 50rem;
 }
@@ -62,7 +81,7 @@
 .border {
   position: absolute;
   border: 2px solid #fff;
-  height: 14rem;
+  height: 10rem;
   top: 14rem;
   left: 10.5rem;
 }

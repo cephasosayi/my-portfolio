@@ -21,7 +21,7 @@ import redux from '../../assets/redux.png';
 
 const Skills = () => {
   return (
-      <Container fluid className={`${styles.skills} `}>
+      <Container fluid className={`${styles.skills} `} id='Skills'>
           <Container className={`${styles.skill} `}>
               <h1 className={`${styles.title} ms-auto me-auto mb-4`}>My Skills</h1>
               <Row lg={4} md={3} sm={1} xs={1} className='py-2 g-4'>

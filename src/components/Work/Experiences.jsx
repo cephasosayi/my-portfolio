@@ -19,27 +19,22 @@ const Experiences = () => {
           company='UllWeb Technology'
           jobTitle='Frontend Developer'
           location='Abuja, Nigeria'
-              desc='I worked as a frontend developer for Ullweb and my major roles includes:
-
-          Using HTML, JavaScript, Reactjs, CSS and other web framework to translate user interfaces into functional websites and also maintaining 
-          and optimization of frontend codes.'
+              desc='
+              Write modern, performant, maintainable code for a diverse array of client and internal projects
+              Work with a variety of different frontend tools, platforms, frameworks, and content management systems such as JavaScript, Nextjs, React, WordPress, Github, and Netlify.
+              
+              Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis
+          '
             />
           </div>
           
           <div className={`${styles.worksec}`}>
             <Experience
           year='2021'
-          company='Ullweb Technology'
-          jobTitle='Frontend Developer'
+          company='Easydrop Web Services'
+          jobTitle='Frontend Developer &  Wordpress Designer'
           location='Abuja, Nigeria'
-          desc='Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-          ea commodo consequat. Duis aute irure dolor in reprehenderit
-          in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident,
-          sunt in culpa qui officia deserunt mollit anim id est
-          laborum.'
+          desc='Worked with a team of three designers to build different websites, one which is an e-commerce platform for Lankified, a clothing company from Lagos'
             />
           </div>
           </Col>

@@ -28,3 +28,18 @@ $bodyFontSize:1rem;
 .button:hover{
     background-color: $secondaryColor;
 }
+.icon{
+    background: $primaryColor;
+    border-radius: 100%;
+    transform: scale(2);
+    margin: 1rem;
+    color: #FCFCFC;
+}
+.icon:hover{
+        background: $primaryColor;
+        border: 1px solid $yellow;
+        border-radius: 100%;
+        transform: scale(2);
+        margin: 1rem;
+        color: #FCFCFC;
+}

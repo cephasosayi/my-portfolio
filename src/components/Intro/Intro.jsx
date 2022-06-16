@@ -10,6 +10,7 @@ import Github from '@iconscout/react-unicons/icons/uil-github'
 import Instagram from '@iconscout/react-unicons/icons/uil-instagram'
 import Twitter from '@iconscout/react-unicons/icons/uil-twitter'
 import Linkedin from '@iconscout/react-unicons/icons/uil-linkedin'
+import { Link } from 'react-scroll';
 
 
 
@@ -42,10 +43,10 @@ const Intro = () => {
               <div className={`${styles.icons} d-flex ms-auto`} >
                   <div className={`${styles.ico} ms-auto `}><img src={Line} alt='' objectfit='contain' /></div>
 
-                  <div className={`${styles.icon} ms-auto `}><Github color='white' /></div>
-                  <div className={`${styles.icon}  ms-auto`}><Instagram color='white'/></div>
-                  <div className={`${styles.icon}  ms-auto`}><Twitter color='white'/></div>
-                  <div className={`${styles.icon}  ms-auto`}><Linkedin color='white'/></div>
+                  <div className={`${styles.icon} ms-auto `}> <a href='https://github.com/cephasosayi' target='_blank'><Github color='white' /></a></div>
+                  <div className={`${styles.icon}  ms-auto`}><a href='https://instagram.com/cephasosayi' target='_blank'><Instagram color='white'/></a></div>
+                  <div className={`${styles.icon}  ms-auto`}><a href='https://twitter.com/cephasosayi' target='_blank'><Twitter color='white'/></a></div>
+                  <div className={`${styles.icon}  ms-auto`}><a href='https://www.linkedin.com/in/cephasosayi/' target='_blank'><Linkedin color='white'/></a></div>
 
               </div>
           </Container>          
