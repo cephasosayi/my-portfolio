@@ -19,6 +19,7 @@
   background: #34353A !important;
   padding: 0;
   height: 7rem;
+  border: 0 !important;
 }
 
 .brand {
@@ -35,7 +36,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  gap: 1.8rem;
+  gap: 2rem;
 }
 
 .navLink {
@@ -44,12 +45,20 @@
   color: #fff !important;
 }
 
-@media screen and (max-width: 480px) {
+.toggle {
+  border: 0 !important;
+  background: none !important;
+}
+
+.navscroll {
+  border-bottom: 0 !important;
+}
+
+@media screen and (max-width: 768px) {
   .navbar {
     background: #34353A !important;
     padding: 7px;
     height: 5rem;
-    scroll-behavior: smooth;
     -webkit-transition: 80ms ease-in-out;
     transition: 80ms ease-in-out;
   }
@@ -89,11 +98,12 @@
   }
 }
 
-@media (min-width: 768px) {
+@media screen and (max-width: 480px) {
   .navbar {
     background: #34353A !important;
     padding: 7px;
     height: 5rem;
+    scroll-behavior: smooth;
     -webkit-transition: 80ms ease-in-out;
     transition: 80ms ease-in-out;
   }

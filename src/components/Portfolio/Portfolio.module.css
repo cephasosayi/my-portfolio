@@ -18,14 +18,14 @@
 .portfolio {
   position: relative;
   height: auto;
-  width: 100%;
+  width: 100% !important;
   background: #31333B;
   padding-top: 4rem;
 }
 
 .portf {
   position: relative;
-  left: 1rem !important;
+  left: -1.5rem !important;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

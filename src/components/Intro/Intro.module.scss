@@ -4,6 +4,8 @@
     width: 100%;
     background: $primaryColor;
     height: 40rem;
+        border-bottom: 0px !important;
+
 }
 .introContent{
     display: flex !important;
@@ -88,9 +90,9 @@
 }
 .circle{
     position: absolute;
-    top: -50rem;
-    left: 14.5rem;
-    transform: scale(.7);
+    top: -45rem;
+    left: 27.5rem;
+    transform: scale(.8);
 
 }
 .cimg{
@@ -99,119 +101,9 @@
     
 }
 
-@media screen and (max-width: 480px) {
-    .intro{
-        width: 100%;
-        background: $primaryColor;
-        height: 41.5rem;
-        // border-bottom: 2px solid white;
-    }
-    .introContent{
-        display: flex !important;
-        flex-direction: column !important;
-        margin-top: 4rem;
-        gap: 1rem;
-        color: #fff;
-    
-    }
-    .introContent>:nth-child(1){
-        display: flex;
-        margin-bottom: -4rem;
-    }
-    .introContent>h2{
-        gap: 2rem;
-    }
-    .text2{
-        color: $yellow !important;
-        font-weight: bold;
-        font-size: 2.5rem; 
-        justify-content: center;
-        margin-top: -10px;
-        margin-left: 10px;
-        
-    }
-    .introContent>:nth-child(2){
-        margin: 0rem 0rem 1.5rem 0rem;
-        font-size: 1.5rem;
-        font-weight: normal;
-        font-style: normal;
-        width: 100%;
-        margin-top: 4rem;
-        line-height: 3rem;
-    }
-    .img{
-        position: relative;
-        left: 0rem;
-        top: 2.35rem;
-        width: 100% !important;
-        // margin-top: 2.5rem;
-        transform: scale(1.05);
-        // height: 3rem !important;
-        z-index: 1;
-        object-fit: contain;
-        border-color: $primaryColor !important;
-    }
-    .icons{
-        display: flex;
-        flex-direction:row;
-        width: 100%;
-        top: 3rem !important;
-        position: relative;
-        z-index: 2;
-        left: -25rem;
-
-        
-       
-    }
-    .icon{
-        z-index: 1;
-        width: 100% !important;
-        position: relative;
-        top: 1rem;
-        left: -3rem;
-        justify-content: center !important;
-        margin: 45px;
-        transform: scale(1.2);
-        align-items: center !important;
-    
-    }
-    .introRight{
-        z-index: 1;
-    
-    }
-    .ico{
-        transform: rotate(90deg);
-        z-index: 1;
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        top: 0rem;
-        left: 19.59rem;
-        height: 1rem !important;
-        margin-bottom: 10px;
-
-    }
-    .maincircle{
-        position: relative;
-        width: 100%;
-    }
-    .circle{
-        position: absolute;
-        top: -30rem;
-        left: -19.5rem;
-        transform: scale(.7);
-    
-    }
-    .cimg{
-        z-index: 2;
-        transform: scale(.7);
-        
-    }    
-}
 
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { 
+@media screen and (max-width: 768px) { 
     .intro{
         width: 100%;
         background: $primaryColor;
@@ -304,6 +196,116 @@
         transform: scale(.7);
         
     }
+}
+@media screen and (max-width: 480px) {
+    .intro{
+        width: 100%;
+        background: $primaryColor;
+        height: 42rem;
+        border-bottom: none !important;
+    }
+    .introContent{
+        display: flex !important;
+        flex-direction: column !important;
+        margin-top: 4rem;
+        gap: 1rem;
+        color: #fff;
+    
+    }
+    .introContent>:nth-child(1){
+        display: flex;
+        margin-bottom: -4rem;
+    }
+    .introContent>h2{
+        gap: 2rem;
+    }
+    .text2{
+        color: $yellow !important;
+        font-weight: bold;
+        font-size: 2.5rem; 
+        justify-content: center;
+        margin-top: -12px;
+        margin-left: 10px;
+        
+    }
+    .introContent>:nth-child(2){
+        margin: 0rem 0rem 1.5rem 0rem;
+        font-size: 1.5rem;
+        font-weight: normal;
+        font-style: normal;
+        width: 100%;
+        margin-top: 4rem;
+        line-height: 3rem;
+    }
+    .img{
+        position: relative;
+        left: 0rem;
+        top: 2.35rem;
+        width: 100% !important;
+        // margin-top: 2.5rem;
+        transform: scale(1.05);
+        // height: 3rem !important;
+        z-index: 1;
+        object-fit: contain;
+        border-color: $primaryColor !important;
+    }
+    .icons{
+        display: flex;
+        flex-direction:row;
+        width: 100%;
+        top: 3rem !important;
+        position: relative;
+        z-index: 2;
+        left: -25rem;
+
+        
+       
+    }
+    .icon{
+        z-index: 1;
+        width: 100% !important;
+        position: relative;
+        top: 1rem;
+        left: -3rem;
+        justify-content: center !important;
+        margin: 45px;
+        transform: scale(1.2);
+        align-items: center !important;
+    
+    }
+    .introRight{
+        z-index: 1;
+    
+    }
+    .ico{
+        transform: rotate(90deg);
+        z-index: 1;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 0rem;
+        left: 19.59rem;
+        height: 1rem !important;
+        margin-bottom: 10px;
+
+    }
+    .maincircle{
+        position: relative;
+        width: 100%;
+    }
+    .circle{
+        position: absolute;
+        top: -30rem;
+        left: -13.5rem;
+        transform: scale(.7);
+    
+    }
+    .cimg{
+        z-index: 2;
+        transform: scale(.7);
+        
+    }    
 }
 
 // XX-Large devices (larger desktops, 1400px and up)

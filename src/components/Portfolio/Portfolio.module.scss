@@ -4,7 +4,7 @@
 .portfolio{
     position: relative;
     height: auto;
-    width: 100%;
+    width: 100% !important;
     background: $secondaryColor;
     padding-top: 4rem;
     // display: flex;
@@ -14,7 +14,7 @@
 }
 .portf{
     position: relative;
-    left: 1rem !important;
+    left: -1.5rem !important;
     display: flex;
     flex-direction: column;
     justify-content: center;
