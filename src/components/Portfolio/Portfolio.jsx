@@ -2,8 +2,14 @@ import React from 'react'
 import { Container, Row } from 'react-bootstrap'
 import PortfolioCard from '../portfolioCard/PortfolioCard';
 import styles from './Portfolio.module.css';
-import sc1 from '../../assets/sc1.png';
-import sc2 from '../../assets/sc2.png';
+import netflix from '../../assets/porfolio/netflix.png';
+import airbnb from '../../assets/porfolio/airbnb.png';
+import notapp from '../../assets/porfolio/noteapp.png';
+import pizzaapp from '../../assets/porfolio/pizzaapp.png';
+import ullweb from '../../assets/porfolio/ullweb.png';
+import portfolio from '../../assets/porfolio/portfolio.png';
+// import netflix from '../../assets/portfolio/netflix.png';
+
 
 
 const Portfolio = () => {
@@ -14,43 +20,43 @@ const Portfolio = () => {
 
               <Row lg={3} sm={1} md={2} xs={1}>
                   <PortfolioCard
-                      img={sc1}
-                      title='Ullweb Landing Page'
+                      img={netflix}
+                      title='Netflix v2.0 Website Clone'
                       detail='Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                               sed do eiusmod tempor incididunt ut labore et dolore magna
                               aliqua. '
                   />
                   <PortfolioCard
-                      img={sc2}
-                      title='DHI Hub website'
+                      img={notapp}
+                      title='Web Note Application'
                       detail='Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                               sed do eiusmod tempor incididunt ut labore et dolore magna
                               aliqua. '
                   />
                   <PortfolioCard
-                      img={sc1}
-                      title='Ullweb Landing Page'
+                      img={pizzaapp}
+                      title='Food Ordering App'
                       detail='Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                               sed do eiusmod tempor incididunt ut labore et dolore magna
                               aliqua. '
                   />
                    <PortfolioCard
-                      img={sc1}
-                      title='Ullweb Landing Page'
+                      img={airbnb}
+                      title='Airbnb v2.0 Website Clone'
                       detail='Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                               sed do eiusmod tempor incididunt ut labore et dolore magna
                               aliqua. '
                   />
                    <PortfolioCard
-                      img={sc1}
+                      img={ullweb}
                       title='Ullweb Landing Page'
                       detail='Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                               sed do eiusmod tempor incididunt ut labore et dolore magna
                               aliqua. '
                   />
                   <PortfolioCard
-                      img={sc1}
-                      title='Ullweb Landing Page'
+                      img={portfolio}
+                      title='Portfolio Website'
                       detail='Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                               sed do eiusmod tempor incididunt ut labore et dolore magna
                               aliqua. '

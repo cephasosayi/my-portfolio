@@ -23,7 +23,7 @@ const Intro = () => {
               <Row>
               <Col lg={6} sm={12} md={6} xs={12} className={`${styles.introLeft}`}>
                   <div className={`${styles.introContent}`}>
-                      <h2>I'M  <span className={`${styles.text2} `}>  Cephas Osayi</span></h2>
+                      <h2>I'M<span className={`${styles.text2} `}> Cephas Osayi</span></h2>
                   {/* <span> Cephas Osayi</span> */}
                   <span>Frontend Developer & WordPress Expert</span>
                   </div>                  

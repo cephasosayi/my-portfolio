@@ -21,7 +21,7 @@
 
 }
 .introContent>h2{
-    gap: 2rem;
+    gap: 1rem;
 }
 .text2{
     color: $yellow !important;
@@ -217,7 +217,7 @@
         margin-bottom: -4rem;
     }
     .introContent>h2{
-        gap: 2rem;
+        gap: 1rem;
     }
     .text2{
         color: $yellow !important;
@@ -299,6 +299,7 @@
         top: -30rem;
         left: -13.5rem;
         transform: scale(.7);
+        display:none !important;
     
     }
     .cimg{
