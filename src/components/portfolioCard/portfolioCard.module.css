@@ -145,8 +145,8 @@
 
 @media screen and (max-width: 480px) {
   .card {
-    width: 21.5rem !important;
-    height: 29.5rem !important;
+    width: 19rem !important;
+    height: 29rem !important;
     gap: 7rem !important;
     margin-right: 2rem !important;
     position: relative;
@@ -176,8 +176,8 @@
     z-index: 1;
   }
   .btn {
-    margin-top: -17px;
-    padding: 5px !important;
+    margin-top: -16px !important;
+    padding: 4px !important;
   }
   .title {
     font-size: 1.2rem;

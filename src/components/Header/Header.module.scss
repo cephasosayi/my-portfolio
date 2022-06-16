@@ -90,7 +90,7 @@
  @media screen and (max-width: 480px) {
     .navbar{
         background: $primaryColor !important;
-        padding: 7px;
+        padding: 12px !important;
         height: 5rem;
         scroll-behavior: smooth;
         transition: 80ms ease-in-out;
@@ -122,10 +122,16 @@
         background: $yellow !important;
     }
     .navscroll{
-        height: 20.5rem;
+        height: 18.5rem;
         width: 100% !important;
         border-bottom: 2px solid $yellow !important;
         background: $secondaryColor !important;
+        padding: 10px;
+        gap: 5px;
+    }
+    .btn{
+        margin-top: 15px;
+
     }
 }
 

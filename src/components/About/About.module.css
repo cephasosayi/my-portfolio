@@ -90,14 +90,6 @@
   .line, .abouttext {
     position: relative;
     width: 100%;
-  }
-  .lineImg {
-    top: -15rem;
-    left: 10rem !important;
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -105,8 +97,24 @@
         -ms-flex-pack: center;
             justify-content: center;
   }
+  .lineImg {
+    position: absolute;
+    top: -15rem;
+    left: 0rem !important;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    display: none;
+  }
   .abouttitle {
-    margin-top: 10rem;
+    margin-top: 9rem;
     font-weight: bold;
     font-size: 2rem;
     width: 100%;

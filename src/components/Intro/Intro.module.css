@@ -270,6 +270,7 @@
   }
   .introContent > h2 {
     gap: 1rem;
+    font-size: 1.35rem !important;
   }
   .text2 {
     color: #FECA6B !important;
@@ -278,7 +279,7 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    margin-top: -12px;
+    margin-top: -15px;
     margin-left: 10px;
   }
   .introContent > :nth-child(2) {
@@ -315,17 +316,28 @@
     position: relative;
     z-index: 2;
     left: -25rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify !important;
+        -ms-flex-pack: justify !important;
+            justify-content: space-between !important;
+    gap: 2rem !important;
   }
   .icon {
     z-index: 1;
     width: 100% !important;
-    position: relative;
-    top: 1rem;
-    left: -3rem;
-    -webkit-box-pack: center !important;
-        -ms-flex-pack: center !important;
-            justify-content: center !important;
-    margin: 45px;
+    position: relative !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    top: 3rem;
+    left: -40px;
+    margin: 0px 40px 0px 0px;
     -webkit-transform: scale(1.2);
             transform: scale(1.2);
     -webkit-box-align: center !important;

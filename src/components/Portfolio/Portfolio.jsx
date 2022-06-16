@@ -19,6 +19,7 @@ const Portfolio = () => {
           <h1 className={`${styles.title} ms-auto me-auto mb-4`}>Portfolio</h1>
 
               <Row lg={3} sm={1} md={2} xs={1}>
+                  
                   <PortfolioCard
                       img={netflix}
                       title='Netflix v2.0 Website Clone'

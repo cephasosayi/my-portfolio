@@ -16,23 +16,19 @@ const Experiences = () => {
           <div className={`${styles.worksc}`}>
         <Experience
           year='2021'
-          company='Easydrop Web Services'
+          company='UllWeb Technology'
           jobTitle='Frontend Developer'
           location='Abuja, Nigeria'
-          desc='                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-          ea commodo consequat. Duis aute irure dolor in reprehenderit
-          in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident,
-          sunt in culpa qui officia deserunt mollit anim id est
-          laborum.'
+              desc='I worked as a frontend developer for Ullweb and my major roles includes:
+
+          Using HTML, JavaScript, Reactjs, CSS and other web framework to translate user interfaces into functional websites and also maintaining 
+          and optimization of frontend codes.'
             />
           </div>
           
           <div className={`${styles.worksec}`}>
             <Experience
-          year='2020'
+          year='2021'
           company='Ullweb Technology'
           jobTitle='Frontend Developer'
           location='Abuja, Nigeria'

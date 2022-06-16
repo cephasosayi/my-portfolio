@@ -100,8 +100,7 @@
     height: auto;
     width: 100%;
     background: #31333B;
-    padding-top: 4rem;
-    padding: 1rem;
+    padding-top: 6rem;
   }
   .portf {
     position: relative;
@@ -121,6 +120,7 @@
             align-items: center;
     background: #31333B;
     padding: 10px !important;
+    margin: px 10px px 10px !important;
   }
   .title {
     width: 100%;

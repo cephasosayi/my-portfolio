@@ -1,5 +1,5 @@
 import React, {useState } from 'react'
-import { Button, Card, Container } from 'react-bootstrap';
+import { Button, Card, Col, Container } from 'react-bootstrap';
 import styles from './portfolioCard.module.css';
 import arrow from '../../assets/arrow.png';
 
@@ -13,8 +13,9 @@ const PortfolioCard = ({ img, title, detail }) => {
     }
   return (
       <Container fluid>
-          <Container>
-              <Card className={`${styles.card} shadow mb-2 mt-5`}
+          <Container className={`${styles.pCard}`}>
+              <Col className=''>
+              <Card className={`${styles.card} shadow  mb-2 mt-4`}
                   onMouseEnter={onHover}
                   onMouseLeave={onHover}
               >
@@ -32,7 +33,8 @@ const PortfolioCard = ({ img, title, detail }) => {
                   
                   
 
-              </Card>
+                  </Card>
+                  </Col>
       </Container>
 
                     

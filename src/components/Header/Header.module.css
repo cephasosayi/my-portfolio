@@ -112,7 +112,7 @@
 @media screen and (max-width: 480px) {
   .navbar {
     background: #34353A !important;
-    padding: 7px;
+    padding: 12px !important;
     height: 5rem;
     scroll-behavior: smooth;
     -webkit-transition: 80ms ease-in-out;
@@ -147,10 +147,15 @@
     background: #FECA6B !important;
   }
   .navscroll {
-    height: 20.5rem;
+    height: 18.5rem;
     width: 100% !important;
     border-bottom: 2px solid #FECA6B !important;
     background: #31333B !important;
+    padding: 10px;
+    gap: 5px;
+  }
+  .btn {
+    margin-top: 15px;
   }
 }
 /*# sourceMappingURL=Header.module.css.map */
