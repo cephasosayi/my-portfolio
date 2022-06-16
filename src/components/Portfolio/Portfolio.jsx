@@ -23,44 +23,42 @@ const Portfolio = () => {
                   <PortfolioCard
                       img={netflix}
                       title='Netflix v2.0 Website Clone'
-                      detail='Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                              sed do eiusmod tempor incididunt ut labore et dolore magna
-                              aliqua. '
+                    //   detail='This clone . '
                   />
                   <PortfolioCard
                       img={notapp}
                       title='Web Note Application'
-                      detail='Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                              sed do eiusmod tempor incididunt ut labore et dolore magna
-                              aliqua. '
+                    //   detail='Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    //           sed do eiusmod tempor incididunt ut labore et dolore magna
+                    //           aliqua. '
                   />
                   <PortfolioCard
                       img={pizzaapp}
                       title='Food Ordering App'
-                      detail='Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                              sed do eiusmod tempor incididunt ut labore et dolore magna
-                              aliqua. '
+                    //   detail='Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    //           sed do eiusmod tempor incididunt ut labore et dolore magna
+                    //           aliqua. '
                   />
                    <PortfolioCard
                       img={airbnb}
                       title='Airbnb v2.0 Website Clone'
-                      detail='Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                              sed do eiusmod tempor incididunt ut labore et dolore magna
-                              aliqua. '
+                    //   detail='Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    //           sed do eiusmod tempor incididunt ut labore et dolore magna
+                    //           aliqua. '
                   />
                    <PortfolioCard
                       img={ullweb}
                       title='Ullweb Landing Page'
-                      detail='Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                              sed do eiusmod tempor incididunt ut labore et dolore magna
-                              aliqua. '
+                    //   detail='Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    //           sed do eiusmod tempor incididunt ut labore et dolore magna
+                    //           aliqua. '
                   />
                   <PortfolioCard
                       img={portfolio}
                       title='Portfolio Website'
-                      detail='Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                              sed do eiusmod tempor incididunt ut labore et dolore magna
-                              aliqua. '
+                    //   detail='Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    //           sed do eiusmod tempor incididunt ut labore et dolore magna
+                    //           aliqua. '
                   />
               </Row>
 

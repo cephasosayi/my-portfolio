@@ -15,9 +15,28 @@
   background-color: #31333B;
 }
 
+.icon {
+  background: #34353A;
+  border-radius: 100%;
+  -webkit-transform: scale(2);
+          transform: scale(2);
+  margin: 1rem;
+  color: #FCFCFC;
+}
+
+.icon:hover {
+  background: #34353A;
+  border: 1px solid #FECA6B;
+  border-radius: 100%;
+  -webkit-transform: scale(2);
+          transform: scale(2);
+  margin: 1rem;
+  color: #FCFCFC;
+}
+
 .card {
   width: 23rem !important;
-  height: 28rem !important;
+  height: 26rem !important;
   gap: 7rem !important;
   margin-right: 2rem !important;
   position: relative;
@@ -54,7 +73,7 @@
 }
 
 .btn {
-  margin-top: -18px;
+  margin-top: -14px;
 }
 
 .title {
@@ -86,7 +105,7 @@
 @media screen and (max-width: 768px) {
   .card {
     width: 21.5rem !important;
-    height: 29.5rem !important;
+    height: 25.5rem !important;
     gap: 0rem !important;
     margin-right: 0rem !important;
     position: relative;
@@ -146,7 +165,7 @@
 @media screen and (max-width: 480px) {
   .card {
     width: 19rem !important;
-    height: 29rem !important;
+    height: 26rem !important;
     gap: 7rem !important;
     margin-right: 2rem !important;
     position: relative;
@@ -177,7 +196,7 @@
   }
   .btn {
     margin-top: -16px !important;
-    padding: 4px !important;
+    padding: 5px !important;
   }
   .title {
     font-size: 1.2rem;
