@@ -36,6 +36,7 @@ const Portfolio = () => {
                   <PortfolioCard
                       img={pizzaapp}
                       title='Food Ordering App'
+                      link='https://food-ordering-app-theta.vercel.app/'
                     //   detail='Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                     //           sed do eiusmod tempor incididunt ut labore et dolore magna
                     //           aliqua. '
@@ -43,6 +44,7 @@ const Portfolio = () => {
                    <PortfolioCard
                       img={airbnb}
                       title='Airbnb v2.0 Website Clone'
+                      link='https://letscloneairbnb.netlify.app'
                     //   detail='Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                     //           sed do eiusmod tempor incididunt ut labore et dolore magna
                     //           aliqua. '
@@ -58,6 +60,7 @@ const Portfolio = () => {
                   <PortfolioCard
                       img={portfolio}
                       title='Portfolio Website'
+                      link='https://andrewportfoliowebsite.netlify.app/'
                     //   detail='Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                     //           sed do eiusmod tempor incididunt ut labore et dolore magna
                     //           aliqua. '

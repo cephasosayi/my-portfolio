@@ -35,6 +35,7 @@ $bodyFontSize:1rem;
     transform: scale(2);
     margin: 1rem;
     color: #FCFCFC;
+    z-index: 1 !important;
 }
 .icon:hover{
         background: $primaryColor;
