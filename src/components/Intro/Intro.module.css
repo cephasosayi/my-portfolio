@@ -15,6 +15,25 @@
   background-color: #31333B;
 }
 
+.icon {
+  background: #34353A;
+  border-radius: 100%;
+  -webkit-transform: scale(2);
+          transform: scale(2);
+  margin: 1rem;
+  color: #FCFCFC;
+}
+
+.icon:hover {
+  background: #34353A;
+  border: 1px solid #FECA6B;
+  border-radius: 100%;
+  -webkit-transform: scale(2);
+          transform: scale(2);
+  margin: 1rem;
+  color: #FCFCFC;
+}
+
 .intro {
   width: 100%;
   background: #34353A;
@@ -247,7 +266,7 @@
   .intro {
     width: 100%;
     background: #34353A;
-    height: 42rem;
+    height: 44rem;
     border-bottom: none !important;
   }
   .introContent {
@@ -343,6 +362,7 @@
     -webkit-box-align: center !important;
         -ms-flex-align: center !important;
             align-items: center !important;
+    display: none !important;
   }
   .introRight {
     z-index: 1;

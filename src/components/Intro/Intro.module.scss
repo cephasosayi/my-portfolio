@@ -201,7 +201,7 @@
     .intro{
         width: 100%;
         background: $primaryColor;
-        height: 42rem;
+        height: 44rem;
         border-bottom: none !important;
     }
     .introContent{
@@ -277,6 +277,7 @@
         margin: 0px 40px 0px 0px;
         transform: scale(1.2);
         align-items: center !important;
+        display: none !important;
     
     }
     .introRight{
