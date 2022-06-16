@@ -166,11 +166,11 @@
     background: #FECA6B !important;
   }
   .navscroll {
-    height: 21.5rem;
+    height: 23.5rem;
     width: 100% !important;
     border-bottom: 2px solid #FECA6B !important;
     background: #31333B !important;
-    padding: 10px;
+    padding: 7px;
     gap: 5px;
   }
   .btn {

@@ -1,16 +1,16 @@
 import React from 'react'
 import { Button, Container, Nav, Navbar, Image } from 'react-bootstrap';
 import styles from './Header.module.css';
-import logo from '../../assets/logo.png';
+import logo from '../../assets/logo1.png';
 import { Link } from 'react-scroll';
 const Header = () => {
   return (
     <>
-      <Navbar expand='lg' className={`${styles.navbar} p-0`}>
+      <Navbar expand='lg' className={`${styles.navbar}`}>
         <Container>
-          <Navbar.Brand href='#home' className=' text-white fw-bold fs-3 me-auto ms-0'>
+          <Navbar.Brand href='#home' className=' text-white fw-bold fs-2 me-auto ms-0'>
             {/* <img src={logo} alt='' className={`${styles.logo}`} /> */}
-            Cephas
+            C.O
           </Navbar.Brand>
 
           <Navbar.Toggle aria-controls='navbarscroll' className={`${styles.toggle}`} />
