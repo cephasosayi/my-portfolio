@@ -20,11 +20,12 @@ const Portfolio = () => {
 
               <Row lg={3} sm={1} md={2} xs={1}>
                   
-                  {/* <PortfolioCard
+                  <PortfolioCard
                       img={netflix}
                       title='Netflix v2.0 Website Clone'
+                      link='https://netflix-clone-86b94.web.app/'
                     //   detail='This clone . '
-                  /> */}
+                  />
                   <PortfolioCard
                       img={notapp}
                       title='Web Note Application'
