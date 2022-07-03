@@ -38,7 +38,11 @@
     top: 1rem;
     transform: scale(1.5);
     left: 1.1rem;
-
+    background: none;
+}
+.icon:hover{
+    background: none;
+    border: 0px;
 }
 .form{
     position: relative;
@@ -100,6 +104,7 @@
     }
     .icons{
         display: flex;
+        background: none;
     }
     .form{
         position: relative;

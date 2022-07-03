@@ -35,11 +35,7 @@ const Contact = () => {
                   <Col lg={6} sm={12} xs={12} md={6} className={`${styles.colRight}`}>
                   <div className={`${styles.info}`}>
                           <p className={`${styles.icons}`}>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                              quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-                              ea commodo consequat. Duis aute irure dolor in reprehenderit
-                              in.
+                          Hello there, feel free to contact me at any time, I will get back to you within two business days and if it's urgent, my social handle would be better in situations like this.
                           </p>      
                           <p className={`${styles.ico} fw-bold`}>
                               Email: cephasosayi@gmail.com

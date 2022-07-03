@@ -30,18 +30,19 @@ $bodyFontSize:1rem;
     background-color: $secondaryColor;
 }
 .icon{
-    background: $primaryColor;
+    background: none;
     border-radius: 100%;
     transform: scale(2);
     margin: 1rem;
     color: #FCFCFC;
     z-index: 1 !important;
 }
-.icon:hover{
-        background: $primaryColor;
-        border: 1px solid $yellow;
-        border-radius: 100%;
-        transform: scale(2);
-        margin: 1rem;
-        color: #FCFCFC;
-}
+// .icon:hover{
+//         background: $primaryColor;
+//         border: 1px solid $yellow;
+//         border-radius: 100%;
+//         transform: scale(.3);
+//         margin: 1rem;
+//         background: none !important;
+//         color: #FCFCFC;
+// }

@@ -9,10 +9,20 @@
   height: 3.3rem;
   width: 9rem;
   cursor: pointer !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
 }
 
 .button:hover {
   background-color: #31333B;
+}
+
+.icon {
+  background: none;
+  border-radius: 100%;
+  margin: 1rem;
+  color: #FCFCFC;
+  z-index: 1 !important;
 }
 
 .experience {

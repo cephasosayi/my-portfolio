@@ -18,22 +18,12 @@
 }
 
 .icon {
-  background: #34353A;
+  background: none;
   border-radius: 100%;
   -webkit-transform: scale(2);
           transform: scale(2);
   margin: 1rem;
   color: #FCFCFC;
   z-index: 1 !important;
-}
-
-.icon:hover {
-  background: #34353A;
-  border: 1px solid #FECA6B;
-  border-radius: 100%;
-  -webkit-transform: scale(2);
-          transform: scale(2);
-  margin: 1rem;
-  color: #FCFCFC;
 }
 /*# sourceMappingURL=global.css.map */

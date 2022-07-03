@@ -9,6 +9,8 @@
   height: 3.3rem;
   width: 9rem;
   cursor: pointer !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
 }
 
 .button:hover {
@@ -16,22 +18,11 @@
 }
 
 .icon {
-  background: #34353A;
+  background: none;
   border-radius: 100%;
-  -webkit-transform: scale(2);
-          transform: scale(2);
   margin: 1rem;
   color: #FCFCFC;
-}
-
-.icon:hover {
-  background: #34353A;
-  border: 1px solid #FECA6B;
-  border-radius: 100%;
-  -webkit-transform: scale(2);
-          transform: scale(2);
-  margin: 1rem;
-  color: #FCFCFC;
+  z-index: 1 !important;
 }
 
 .intro {
@@ -120,12 +111,14 @@
   -webkit-box-pack: end !important;
       -ms-flex-pack: end !important;
           justify-content: end !important;
-  margin-left: 68rem;
+  margin-left: 75rem !important;
   cursor: pointer;
-  margin-top: 1.1rem !important;
+  margin-top: 1rem !important;
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .introRight {
@@ -136,7 +129,7 @@
   z-index: 1;
   position: relative;
   top: -18rem;
-  left: 14.59rem;
+  left: 13.59rem;
   height: 3rem !important;
 }
 
@@ -149,14 +142,14 @@
   position: absolute;
   top: -45rem;
   left: 27.5rem;
-  -webkit-transform: scale(0.8);
-          transform: scale(0.8);
+  -webkit-transform: scale(0.8) !important;
+          transform: scale(0.8) !important;
 }
 
 .cimg {
   z-index: 2;
-  -webkit-transform: scale(0.7);
-          transform: scale(0.7);
+  -webkit-transform: scale(0.7) !important;
+          transform: scale(0.7) !important;
 }
 
 @media screen and (max-width: 768px) {

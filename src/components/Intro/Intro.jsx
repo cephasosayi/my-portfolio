@@ -5,7 +5,7 @@ import cephas3 from '../../assets/cep.png';
 import Line from '../../assets/up.png';
 import circle from '../../assets/circle.png';
 
-
+import { motion } from 'framer-motion';
 import Github from '@iconscout/react-unicons/icons/uil-github'
 import Instagram from '@iconscout/react-unicons/icons/uil-instagram'
 import Twitter from '@iconscout/react-unicons/icons/uil-twitter'
@@ -16,13 +16,12 @@ import { Link, ScrollLink } from 'react-scroll';
 
 
 
-
 const Intro = () => {
   return (
       <Container fluid className={`${styles.intro} shadow-sm`}>
           <Container>
               <Row>
-              <Col lg={6} sm={12} md={6} xs={12} className={`${styles.introLeft}`}>
+                  <Col lg={6} sm={12} md={6} xs={12} className={`${styles.introLeft}`}>
                   <div className={`${styles.introContent}`}>
                       <h2>I'M<span className={`${styles.text2} `}> Cephas Osayi</span></h2>
                   {/* <span> Cephas Osayi</span> */}
