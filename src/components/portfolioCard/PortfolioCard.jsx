@@ -3,10 +3,12 @@ import { Button, Card, Col, Container } from 'react-bootstrap';
 import styles from './portfolioCard.module.css';
 import arrow from '../../assets/arrow.png';
 import { ScrollLink } from 'react-scroll';
+import Github from '@iconscout/react-unicons/icons/uil-github'
 
 
 
-const PortfolioCard = ({ img, title, detail, link }) => {
+
+const PortfolioCard = ({ img, title, github, link }) => {
     const [hover, setHover] = useState(false);
 
     const onHover= ()=>{
@@ -26,13 +28,30 @@ const PortfolioCard = ({ img, title, detail, link }) => {
                   
                       <Card.Body className={`${styles.body} ms-auto me-auto`}>
                           <Card.Title className={`${styles.title}`}>{title}</Card.Title>
-                      <Card.Text className={`${styles.text}`}>{detail}</Card.Text>
-                          {hover && 
+                          <Card.Text className={`${styles.text}`}>
+                              <div className='d-flex justify-content-between  w-100 d-flex-lg-row'>
+                                  
+                              <div  className='me-3 mt-sm-3 mt-lg-0'><a href={github} target='_blank'>
+                                  <Button variant='Link' className={`mt-lg-0 `}>
+                                          <Github color='black' size={35} /> 
+                                  </Button>
+
+                                  </a>
+                                  </div>
+                                  <div>
+                                  <a href={link} target='_blank'>
+                                  <Button variant='Link' className={`${styles.btn} mt-lg-2 mt-sm-1`}>Visit Site </Button>
+                              </a>
+                                  </div>
+                                  
+                              </div>
+                          </Card.Text>
+                          {/* {hover && 
                               <a href={link} target='_blank'>
                                   <Button variant='Link' className={`${styles.btn} mt-lg-2`}>Visit </Button>
                               </a>
                               
-                      }
+                      } */}
                   </Card.Body>
                   
                   

@@ -49,7 +49,8 @@
 }
 .btn{
     background: #31333b11 !important;
-    border-radius: 5px;
+    border-radius: 20px;
+    font-weight: bold;
 }
 @media screen and (max-width:768px) {        
     .card{
@@ -125,7 +126,7 @@
     z-index: 1;
 }
 .btn{
-    margin-top: -15px !important;
+    margin-top: -18px !important;
     padding: 5px !important;
     box-shadow: none;
 }

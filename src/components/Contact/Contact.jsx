@@ -42,7 +42,7 @@ const Contact = () => {
                           </p>
                     <div className={`${styles.icons}`}>
                                 <div className={`${styles.icon}`}><a href='https://github.com/cephasosayi' target='_blank' ><Github color='black' /></a></div>                          
-                                <div className={`${styles.icon}`}><a href='https://wa.me/2348077827613' target='_blank' ><Whatsapp color='black' /></a></div>                          
+                                {/* <div className={`${styles.icon}`}><a href='https://wa.me/2348077827613' target='_blank' ><Whatsapp color='black' /></a></div>                           */}
                                 <div className={`${styles.icon}`}><a href='https://github.com/cephasosayi' target='_blank' ><Linkedin color='black' /></a></div>                          
                                 <div className={`${styles.icon}`}><a href='https://github.com/cephasosayi' target='_blank' ><Twitter color='black' /></a></div>                          
 

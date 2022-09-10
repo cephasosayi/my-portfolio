@@ -9,8 +9,7 @@
   height: 3.3rem;
   width: 9rem;
   cursor: pointer !important;
-  -webkit-box-shadow: none !important;
-          box-shadow: none !important;
+  box-shadow: none !important;
 }
 
 .button:hover {
@@ -20,6 +19,7 @@
 .icon {
   background: none;
   border-radius: 100%;
+  transform: scale(2);
   margin: 1rem;
   color: #FCFCFC;
   z-index: 1 !important;
@@ -42,20 +42,11 @@
   position: absolute;
   top: 17rem;
   padding: 2rem !important;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   z-index: 1;
   margin-bottom: -10px;
 }
@@ -72,27 +63,25 @@
   font-size: 1.2rem;
   font-weight: bold;
   font-style: normal;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   margin-bottom: -15px;
 }
 
 .text {
-  font-size: .9rem;
+  font-size: 0.9rem;
   font-weight: normal;
   font-style: normal;
 }
 
 .icon {
-  -webkit-transform: scale(0.6);
-          transform: scale(0.6);
+  transform: scale(0.6);
   margin-left: -5px;
 }
 
 .btn {
-  background: #31333b11 !important;
-  border-radius: 5px;
+  background: rgba(49, 51, 59, 0.0666666667) !important;
+  border-radius: 20px;
+  font-weight: bold;
 }
 
 @media screen and (max-width: 768px) {
@@ -111,20 +100,11 @@
     position: absolute;
     top: 16rem;
     padding: 2rem !important;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     z-index: 1;
   }
   .btn {
@@ -135,9 +115,7 @@
     font-size: 1.2rem;
     font-weight: bold;
     font-style: normal;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
   }
   .text {
     font-size: 1rem;
@@ -145,16 +123,14 @@
     font-style: normal;
   }
   .icon {
-    -webkit-transform: scale(0.6);
-            transform: scale(0.6);
+    transform: scale(0.6);
     margin-left: -5px;
   }
   .btn {
-    background: #31333b11 !important;
+    background: rgba(49, 51, 59, 0.0666666667) !important;
     border-radius: 5px;
   }
 }
-
 @media screen and (max-width: 480px) {
   .card {
     width: 19rem !important;
@@ -171,35 +147,23 @@
     position: absolute;
     top: 17rem;
     padding: 2rem !important;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     z-index: 1;
   }
   .btn {
-    margin-top: -15px !important;
+    margin-top: -18px !important;
     padding: 5px !important;
-    -webkit-box-shadow: none;
-            box-shadow: none;
+    box-shadow: none;
   }
   .title {
     font-size: 1.2rem;
     font-weight: bold;
     font-style: normal;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
   }
   .text {
     font-size: 1rem;
@@ -207,18 +171,15 @@
     font-style: normal;
   }
   .icon {
-    -webkit-transform: scale(0.6);
-            transform: scale(0.6);
+    transform: scale(0.6);
     margin-left: -5px;
   }
   .icon:hover {
-    -webkit-transform: scale(0.6);
-            transform: scale(0.6);
+    transform: scale(0.6);
     margin-left: -5px;
   }
   .btn {
-    background: #31333b11 !important;
+    background: rgba(49, 51, 59, 0.0666666667) !important;
     border-radius: 5px;
   }
-}
-/*# sourceMappingURL=portfolioCard.module.css.map */
+}/*# sourceMappingURL=portfolioCard.module.css.map */

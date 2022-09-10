@@ -30,9 +30,7 @@ const Portfolio = () => {
                       img={notapp}
                       title='Web Note Application'
                       link='https://mywebnote.netlify.app/'
-                    //   detail='Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    //           sed do eiusmod tempor incididunt ut labore et dolore magna
-                    //           aliqua. '
+                      // detail='Lorem ipsum dolor sit amet, consectetur adipiscing elit. '
                   />
                   <PortfolioCard
                       img={pizzaapp}
@@ -42,14 +40,14 @@ const Portfolio = () => {
                     //           sed do eiusmod tempor incididunt ut labore et dolore magna
                     //           aliqua. '
                   />
-                   <PortfolioCard
+                   {/* <PortfolioCard
                       img={airbnb}
                       title='Airbnb v2.0 Website Clone'
                       link='https://letscloneairbnb.netlify.app'
                     //   detail='Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                     //           sed do eiusmod tempor incididunt ut labore et dolore magna
                     //           aliqua. '
-                  />
+                  /> */}
                    <PortfolioCard
                       img={ullweb}
                       title='Ullweb Landing Page'

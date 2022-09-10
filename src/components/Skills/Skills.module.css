@@ -9,8 +9,7 @@
   height: 3.3rem;
   width: 9rem;
   cursor: pointer !important;
-  -webkit-box-shadow: none !important;
-          box-shadow: none !important;
+  box-shadow: none !important;
 }
 
 .button:hover {
@@ -20,6 +19,7 @@
 .icon {
   background: none;
   border-radius: 100%;
+  transform: scale(2);
   margin: 1rem;
   color: #FCFCFC;
   z-index: 1 !important;
@@ -30,8 +30,6 @@
   width: 100% !important;
   background: #31333B;
   height: 80rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -39,23 +37,15 @@
   position: relative;
   left: -1.8rem;
   width: 100%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   background: #31333B !important;
 }
 
 .title {
   width: 100%;
   color: #fff;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  justify-content: center;
   display: flex;
   justify-items: center;
   font-weight: bold;
@@ -68,8 +58,6 @@
     width: 100% !important;
     background: #31333B;
     height: auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     padding-top: 4.5rem;
   }
@@ -77,33 +65,19 @@
     position: relative;
     left: 0rem;
     width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background: #31333B !important;
   }
   .title {
     width: 100%;
     color: #fff;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
+    justify-content: center;
     display: flex;
     justify-items: center;
     font-weight: bold;
     font-size: 3rem;
   }
-}
-/*# sourceMappingURL=Skills.module.css.map */
+}/*# sourceMappingURL=Skills.module.css.map */

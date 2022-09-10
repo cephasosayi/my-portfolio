@@ -9,8 +9,7 @@
   height: 3.3rem;
   width: 9rem;
   cursor: pointer !important;
-  -webkit-box-shadow: none !important;
-          box-shadow: none !important;
+  box-shadow: none !important;
 }
 
 .button:hover {
@@ -20,6 +19,7 @@
 .icon {
   background: none;
   border-radius: 100%;
+  transform: scale(2);
   margin: 1rem;
   color: #FCFCFC;
   z-index: 1 !important;
@@ -27,8 +27,6 @@
 
 .contact {
   height: 25rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -45,46 +43,29 @@
   top: 2rem;
   font-size: 3rem;
   margin-bottom: -6rem;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .info {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   width: 90%;
   height: 23rem;
 }
 
 .icons {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
 .icon {
   position: relative;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-direction: column;
+  justify-content: space-between;
   width: 5rem;
   cursor: pointer;
   top: 1rem;
-  -webkit-transform: scale(1.5);
-          transform: scale(1.5);
+  transform: scale(1.5);
   left: 1.1rem;
   background: none;
 }
@@ -106,8 +87,7 @@
   font-style: normal;
   color: #31333B !important;
   font-size: 1rem;
-  -webkit-box-shadow: none !important;
-          box-shadow: none !important;
+  box-shadow: none !important;
   outline-color: #FECA6B !important;
 }
 
@@ -118,8 +98,7 @@
 .btn {
   background: #FECA6B !important;
   font-weight: bold;
-  -webkit-box-shadow: none !important;
-          box-shadow: none !important;
+  box-shadow: none !important;
   font-stretch: extra-expanded !important;
 }
 
@@ -130,19 +109,10 @@
 @media screen and (max-width: 768px) {
   .contact {
     height: auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .cRow {
     position: relative;
@@ -151,35 +121,22 @@
   .title {
     position: relative;
     left: 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     width: 100% !important;
     font-weight: bold;
     top: 3rem;
     font-size: 2.5rem;
     margin-bottom: -7rem;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
   }
   .info {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     width: 90%;
     height: 25rem;
   }
   .icons {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     background: none;
   }
@@ -195,8 +152,7 @@
     font-style: normal;
     color: #31333B !important;
     font-size: 1rem;
-    -webkit-box-shadow: none !important;
-            box-shadow: none !important;
+    box-shadow: none !important;
     outline-color: #FECA6B !important;
   }
   .input:focus {
@@ -205,31 +161,20 @@
   .btn {
     background: #FECA6B !important;
     font-weight: bold;
-    -webkit-box-shadow: none !important;
-            box-shadow: none !important;
+    box-shadow: none !important;
     font-stretch: extra-expanded !important;
   }
   .hideform {
     display: none;
   }
 }
-
 @media screen and (max-width: 480px) {
   .contact {
     height: auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .cRow {
     position: relative;
@@ -238,35 +183,22 @@
   .title {
     position: relative;
     left: 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     width: 100% !important;
     font-weight: bold;
     top: 7rem;
     font-size: 2.5rem;
     margin-bottom: -7rem;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
   }
   .info {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     width: 100%;
     height: 23rem;
   }
   .icons {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   .form {
@@ -281,8 +213,7 @@
     font-style: normal;
     color: #31333B !important;
     font-size: 1rem;
-    -webkit-box-shadow: none !important;
-            box-shadow: none !important;
+    box-shadow: none !important;
     outline-color: #FECA6B !important;
   }
   .input:focus {
@@ -291,12 +222,10 @@
   .btn {
     background: #FECA6B !important;
     font-weight: bold;
-    -webkit-box-shadow: none !important;
-            box-shadow: none !important;
+    box-shadow: none !important;
     font-stretch: extra-expanded !important;
   }
   .hideform {
     display: none;
   }
-}
-/*# sourceMappingURL=Contact.module.css.map */
+}/*# sourceMappingURL=Contact.module.css.map */

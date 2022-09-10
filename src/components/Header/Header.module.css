@@ -9,8 +9,7 @@
   height: 3.3rem;
   width: 9rem;
   cursor: pointer !important;
-  -webkit-box-shadow: none !important;
-          box-shadow: none !important;
+  box-shadow: none !important;
 }
 
 .button:hover {
@@ -20,6 +19,7 @@
 .icon {
   background: none;
   border-radius: 100%;
+  transform: scale(2);
   margin: 1rem;
   color: #FCFCFC;
   z-index: 1 !important;
@@ -38,25 +38,18 @@
   font-size: 3.5rem;
   font-weight: bold;
   color: #fff !important;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   left: -5rem;
 }
 
 .logo {
-  -webkit-transform: scale(0.35);
-          transform: scale(0.35);
+  transform: scale(0.35);
 }
 
 .nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 100%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   gap: 2rem;
 }
 
@@ -80,7 +73,6 @@
     background: #34353A !important;
     padding: 7px;
     height: 5rem;
-    -webkit-transition: 80ms ease-in-out;
     transition: 80ms ease-in-out;
   }
   .brand {
@@ -89,13 +81,9 @@
     color: #fff !important;
   }
   .nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     width: 100%;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
     gap: 1.8rem;
   }
   .navLink {
@@ -106,9 +94,8 @@
     margin-bottom: 7px;
   }
   .toggle {
-    border: 0px solid  !important;
-    -webkit-box-shadow: none !important;
-            box-shadow: none !important;
+    border: 0px solid !important;
+    box-shadow: none !important;
     background: #FECA6B !important;
   }
   .navscroll {
@@ -118,14 +105,12 @@
     background: #31333B !important;
   }
 }
-
 @media screen and (max-width: 480px) {
   .navbar {
     background: #34353A !important;
     padding: 12px !important;
     height: 5rem;
     scroll-behavior: smooth;
-    -webkit-transition: 80ms ease-in-out;
     transition: 80ms ease-in-out;
   }
   .brand {
@@ -134,13 +119,9 @@
     color: #fff !important;
   }
   .nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     width: 100%;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
     gap: 0rem;
   }
   .navLink {
@@ -151,9 +132,8 @@
     margin-bottom: 4px;
   }
   .toggle {
-    border: 0px solid  !important;
-    -webkit-box-shadow: none !important;
-            box-shadow: none !important;
+    border: 0px solid !important;
+    box-shadow: none !important;
     background: #FECA6B !important;
   }
   .navscroll {
@@ -166,5 +146,4 @@
   .btn {
     margin-top: 15px;
   }
-}
-/*# sourceMappingURL=Header.module.css.map */
+}/*# sourceMappingURL=Header.module.css.map */

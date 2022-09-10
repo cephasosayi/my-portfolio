@@ -28,15 +28,17 @@ const Skills = () => {
               <Card icon={react} skill='REACT' />
               <Card icon={html} skill='HTML5' />
               <Card icon={css} skill='CSS3' />
-              <Card icon={js} skill='JAVASCRIP' />
+              <Card icon={js} skill='JAVASCRIPT' />
+          <Card icon={git} skill='REACT-NATIVE' />                
               <Card icon={sass} skill='SASS' />
               <Card icon={next} skill='NEXTJS'  />
+              <Card icon={redux} skill='REDUX' />
              <Card icon={boostrap} skill='BOOTSTRAP' />
-              {/* <Card icon={strapi} skill='HEADLESS CMS' /> */}
+              {/* <Card icon={strapi} skill='STRAPI' /> */}
               <Card icon={xd} skill='ADOBE XD' />
               <Card icon={wp} skill='WORDPRESS' />
-              <Card icon={redux} skill='REDUX' />
-              <Card icon={git} skill='SOURCE CONTROL' />                
+          <Card icon={git} skill='GITHUB' />    
+          
                   
 
 
