@@ -25,17 +25,21 @@ const Portfolio = () => {
                       title='Netflix v2.0 Website Clone'
                       link='https://netflix-clone-86b94.web.app/'
                     //   detail='This clone . '
+                    github= 'https://github.com/cephasosayi/netflixClone'
                   />
                   <PortfolioCard
                       img={notapp}
                       title='Web Note Application'
                       link='https://mywebnote.netlify.app/'
                       // detail='Lorem ipsum dolor sit amet, consectetur adipiscing elit. '
+                      github= 'https://github.com/cephasosayi/Mynote'
+            
                   />
                   <PortfolioCard
                       img={pizzaapp}
                       title='Food Ordering App'
-                      link='https://food-ordering-app-theta.vercel.app/'
+            link='https://food-ordering-app-theta.vercel.app/'
+            github = 'https://github.com/cephasosayi/Food-Ordering-App'
                     //   detail='Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                     //           sed do eiusmod tempor incididunt ut labore et dolore magna
                     //           aliqua. '
@@ -51,7 +55,8 @@ const Portfolio = () => {
                    <PortfolioCard
                       img={ullweb}
                       title='Ullweb Landing Page'
-                      link='https://ullweb.netlify.app/'
+            link='https://ullweb.netlify.app/'
+            // github='https://github.com/cephasosayi/portfolio-website'
                     //   detail='Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                     //           sed do eiusmod tempor incididunt ut labore et dolore magna
                     //           aliqua. '
@@ -59,7 +64,9 @@ const Portfolio = () => {
                   <PortfolioCard
                       img={portfolio}
                       title='Portfolio Website'
-                      link='https://andrewportfoliowebsite.netlify.app/'
+            link='https://andrewportfoliowebsite.netlify.app/'
+            github='https://github.com/cephasosayi/portfolio-website'
+            
                     //   detail='Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                     //           sed do eiusmod tempor incididunt ut labore et dolore magna
                     //           aliqua. '
