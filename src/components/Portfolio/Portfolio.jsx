@@ -56,7 +56,7 @@ const Portfolio = () => {
                       img={ullweb}
                       title='Ullweb Landing Page'
             link='https://ullweb.netlify.app/'
-            // github='https://github.com/cephasosayi/portfolio-website'
+            github='https://github.com/cephasosayi/Ullweb'
                     //   detail='Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                     //           sed do eiusmod tempor incididunt ut labore et dolore magna
                     //           aliqua. '

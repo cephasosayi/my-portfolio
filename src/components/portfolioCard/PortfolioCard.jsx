@@ -40,7 +40,7 @@ const PortfolioCard = ({ img, title, github, link }) => {
                                   </div>
                                   <div>
                                   <a href={link} target='_blank'>
-                                  <Button variant='Link' className={`${styles.btn} mt-lg-2 mt-sm-1`}>Visit Site </Button>
+                                  <Button variant='Link' className={`${styles.btn} mt-lg-2 mt-sm-2`}>Visit Site </Button>
                               </a>
                                   </div>
                                   
