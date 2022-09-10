@@ -29,7 +29,7 @@ const Skills = () => {
               <Card icon={html} skill='HTML5' />
               <Card icon={css} skill='CSS3' />
               <Card icon={js} skill='JAVASCRIPT' />
-          <Card icon={git} skill='REACT-NATIVE' />                
+          <Card icon={react} skill='REACT-NATIVE' />                
               <Card icon={sass} skill='SASS' />
               <Card icon={next} skill='NEXTJS'  />
               <Card icon={redux} skill='REDUX' />
